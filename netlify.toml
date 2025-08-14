@@ -1,0 +1,11 @@
+[build]
+  publish = "cryptoslate.com"
+  # No build for static mirror
+  command = ""
+
+# Optional: send all routes to index.html (simple static landing that redirects to the article)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
